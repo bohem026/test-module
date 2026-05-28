@@ -1,3 +1,15 @@
+/**
+ * 과제
+ * 헤더와 푸터 모듈화
+ */
+import { renderHeader } from '/js/module/header.js';
+import { renderFooter } from '/js/module/footer.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderHeader();
+  renderFooter();
+});
+
 /* 
 window에 스크롤이 생기면 할일
   그 스크롤양이 0보다 크면 body에 active 추가
